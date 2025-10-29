@@ -59,7 +59,7 @@ def generate_employees(n=100, departments_df=None, jobs_df=None): #Genera emplea
 # Uso
 depts = generate_departments()
 jobs = generate_jobs(30)
-employees = generate_employees(100, depts, jobs)
+employees = generate_employees(500, depts, jobs)
 #print(depts)
 #print(positions)
 #print(employees)
