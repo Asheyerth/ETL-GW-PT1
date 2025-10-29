@@ -65,9 +65,9 @@ employees = generate_employees(500, depts, jobs)
 #print(employees)
 
 #Save to CSV
-depts.to_csv("Code/raw/departments.csv",sep=",", index=False)
-jobs.to_csv("Code/raw/jobs.csv", index=False)
-employees.to_csv("Code/raw/employees.csv", index=False)
+depts.to_csv("src/raw/departments.csv",sep=",", index=False)
+jobs.to_csv("src/raw/jobs.csv", index=False)
+employees.to_csv("src/raw/employees.csv", index=False)
 
 
 
